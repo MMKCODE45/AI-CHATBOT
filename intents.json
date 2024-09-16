@@ -1,0 +1,188 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": ["We sell coffee and tea", "We have coffee and tea"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "company_info",
+      "patterns": [
+        "Tell me about PulaWorx International",
+        "What is PulaWorx International?",
+        "Give me information about PulaWorx",
+        "What does PulaWorx do?"
+      ],
+      "responses": [
+        "PulaWorx International is a premier Mobile Value Added Service Provider in Botswana with regional and global ambitions.",
+        "PulaWorx targets mobile consumers directly and via enterprises and government agencies in Botswana and Namibia, expanding into South Africa, Kenya, and Nigeria.",
+        "PulaWorx differentiates itself with a strong in-country presence, financial strength, and a focus on strategic accounts and innovative solutions."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services does PulaWorx offer?",
+        "Tell me about the services provided by PulaWorx",
+        "What can I get from PulaWorx?",
+        "Do you have any specific services?"
+      ],
+      "responses": [
+        "PulaWorx offers subscription-based SMS services, SMS marketing, WhatsApp Business API, and tracking/telemetry services.",
+        "The services include SMS marketing, WhatsApp Business API, and tracking/telemetry solutions."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact PulaWorx?",
+        "What is the phone number for PulaWorx?",
+        "Give me the contact details for PulaWorx",
+        "How do I reach PulaWorx?"
+      ],
+      "responses": [
+        "You can contact PulaWorx International at (+267) 77608200.",
+        "For inquiries, you can call us at (+267) 77608200.",
+        "You can reach PulaWorx International at the phone number (+267) 77608200."
+      ]
+    },
+    {
+      "tag": "differentiators",
+      "patterns": [
+        "What makes PulaWorx different from other providers?",
+        "Why choose PulaWorx?",
+        "How is PulaWorx different?",
+        "What sets PulaWorx apart?"
+      ],
+      "responses": [
+        "PulaWorx differentiates itself with strategic focus, vertical integration, and competitive pricing without compromising on quality.",
+        "The company’s unique features include strong financial backing, operational strategies, and a commitment to innovation."
+      ]
+    },
+    {
+      "tag": "security",
+      "patterns": [
+        "How secure is PulaWorx's messaging platform?",
+        "Tell me about the security of PulaWorx's services",
+        "Is PulaWorx secure?",
+        "How safe is the messaging platform?"
+      ],
+      "responses": [
+        "PulaWorx is committed to leveraging the latest technologies and industry best practices to ensure the security of its messaging platform.",
+        "Our messaging platform is secure, with a focus on maintaining the highest standards of data protection and privacy."
+      ]
+    },
+    {
+      "tag": "customization",
+      "patterns": [
+        "Does PulaWorx offer customizable solutions?",
+        "Can I customize PulaWorx's services?",
+        "Are PulaWorx's solutions customizable?",
+        "How flexible are PulaWorx's services?"
+      ],
+      "responses": [
+        "Yes, PulaWorx offers customizable messaging solutions tailored to meet diverse client needs.",
+        "PulaWorx provides solutions that can be customized to align with unique client requirements and objectives."
+      ]
+    },
+    {
+      "tag": "cost",
+      "patterns": [
+        "How much do your services cost?",
+        "What is the price for your services?",
+        "Can you provide pricing information?",
+        "What are your rates?",
+        "How much does it cost to use your services?"
+      ],
+      "responses": [
+        "For detailed pricing information, please contact us directly. We offer customized solutions to fit different needs and budgets.",
+        "Our pricing varies depending on the services you choose. Please reach out to us for a personalized quote.",
+        "We offer competitive pricing tailored to your requirements. Contact us for more details on our rates and packages.",
+        "Please get in touch with us to discuss your needs, and we will provide you with a pricing structure that suits you."
+      ]
+    },
+    {
+      "tag": "leadership",
+      "patterns": [
+        "Who is the Managing Director?",
+        "Can you tell me about the Managing Director?",
+        "Who leads the company?",
+        "Who is in charge of PulaWorx International?"
+      ],
+      "responses": [
+        "The Managing Director of PulaWorx International is TK.",
+        "Our Managing Director is TK.",
+        "The leadership of PulaWorx International is headed by TK."
+      ]
+    }
+  ]
+}
