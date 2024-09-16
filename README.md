@@ -1,15 +1,16 @@
-ChatBot using PyTorch
-📝 Overview
-This project is a simple conversational chatbot built using PyTorch. It uses a pre-trained neural network to classify user input into predefined intents and provides appropriate responses. The chatbot processes text with Natural Language Processing (NLP) techniques, such as tokenization, stemming, and the bag-of-words model.
 
-✨ Features
-Deep Learning: Powered by a multi-layer neural network implemented with PyTorch.
-NLP Techniques: Processes user input using tokenization, stemming, and a bag-of-words approach.
-Customizable Intents: Easily modify the chatbot’s responses by editing the intents.json file.
-Real-time Interaction: Engage with the chatbot directly through the command line interface.
-📁 Project Structure
-bash
-Copy code
+
+## 📝 Overview
+This project is a simple **conversational chatbot** built using **PyTorch**. It uses a pre-trained neural network to classify user input into predefined intents and provides appropriate responses. The chatbot processes text with **Natural Language Processing (NLP)** techniques, such as tokenization, stemming, and the bag-of-words model.
+
+## ✨ Features
+- **Deep Learning**: Powered by a multi-layer neural network implemented with PyTorch.
+- **NLP Techniques**: Processes user input using tokenization, stemming, and a bag-of-words approach.
+- **Customizable Intents**: Easily modify the chatbot’s responses by editing the `intents.json` file.
+- **Real-time Interaction**: Engage with the chatbot directly through the command line interface.
+
+## 📁 Project Structure
+```bash
 ├── data.pth             # Trained model parameters
 ├── intents.json         # Dataset of patterns, responses, and intents
 ├── model.py             # Neural network model definition
@@ -63,27 +64,3 @@ You: What services do you provide?
 Bot: I offer general customer support. How can I help you today?
 
 You: quit
-⚡ Customization
-The chatbot's responses are driven by the intents.json file. Feel free to modify this file to change the chatbot’s behavior. Below is an example format:
-
-Example intents.json
-json
-Copy code
-{
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": ["Hi", "Hey", "Hello"],
-      "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": ["Goodbye!", "See you later!", "Have a great day!"]
-    }
-  ]
-}
-🔮 Future Improvements
-Integrating external APIs to provide more complex and dynamic responses.
-Enhancing the NLP model for better natural language understanding.
-Developing a user-friendly graphical interface (GUI).
