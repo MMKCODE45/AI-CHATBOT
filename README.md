@@ -1,4 +1,4 @@
-
+# ChatBot using PyTorch
 
 ## 📝 Overview
 This project is a simple **conversational chatbot** built using **PyTorch**. It uses a pre-trained neural network to classify user input into predefined intents and provides appropriate responses. The chatbot processes text with **Natural Language Processing (NLP)** techniques, such as tokenization, stemming, and the bag-of-words model.
